@@ -24,3 +24,11 @@ def waterJugSolver(amt1, amt2):
 		return False
 print("Steps: ")
 waterJugSolver(0, 0)
+
+'''Output
+Enter capacity of j1 : 3
+Enter capcity of j2 : 4
+Enter no of litres should remain at last in j2 jug: 2
+Steps: 
+( 0 0 )-->( 3 0 )-->( 3 4 )-->( 0 4 )-->( 3 1 )-->( 0 1 )-->( 1 0 )-->( 1 4 )-->( 3 2 )-->( 0 2 )
+True '''
